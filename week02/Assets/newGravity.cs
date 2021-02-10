@@ -16,6 +16,7 @@ public class newGravity : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Space)) {
             Rigidbody rb = gameObject.GetComponent<Rigidbody>();
             rb.useGravity = true; 
+            rb.AddForce(transform.forward * 1000.0f);
         }
     }
 }
