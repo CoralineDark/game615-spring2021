@@ -11,9 +11,9 @@ public class RingScript : MonoBehaviour
 	float moveTimer;
 	//This will be how fast we move the ring each Update
 	float moveSpeed = 0.05f;
-	float rotateSpeed = 0.05f;
-	float rotateTimer;
-	float rotateRate = 2; 
+	//float rotateSpeed = 0.05f;
+	//float rotateTimer;
+	//float rotateRate = 2; 
 
     // Start is called before the first frame update
     void Start()
@@ -29,18 +29,18 @@ public class RingScript : MonoBehaviour
     {
 		//Decrement the timer, if it is less than zero, it is time to chenge directions!
 		moveTimer = moveTimer - Time.deltaTime;
-		rotateTimer = rotateTimer - Time.deltaTime;
+		//rotateTimer = rotateTimer - Time.deltaTime;
 		if (moveTimer < 0) {
 			//Change our move direction by multiplying the speed by -1
 			moveSpeed = moveSpeed * -1;
-			rotateSpeed = rotateSpeed * -1; 
+			//rotateSpeed = rotateSpeed * -1; 
 			//Reset the timer
 			moveTimer = moveRate;
-			rotateTimer = rotateRate; 
+			//rotateTimer = rotateRate; 
 		}
 
 		//Move the transform of the gameObject using the "Translate" function
 		transform.Translate(moveSpeed, 0, 0);
-		transform.Translate(rotateSpeed,rotateSpeed,rotateSpeed);
+		//transform.Translate(rotateSpeed,rotateSpeed,rotateSpeed);
     }
 }
