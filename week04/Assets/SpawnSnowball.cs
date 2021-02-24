@@ -15,13 +15,16 @@ public class SpawnSnowball : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Space)) { 
-            GameObject snowball = Instantiate(snowballPrefab, transform.position, transform.rotation);
-            snowball.transform.LookAt(cameraObj.transform);
+        //GameObject snowball = Instantiate(snowballPrefab, transform.position, transform.rotation);
+        //snowball.transform.LookAt(cameraObj.transform);
             //GameObject snowball = Instantiate(snowballPrefab, transform.position, transform.rotation); 
             //Vector3 vectorToTarget = cameraObj.transform.position - transform.position;
             //vectorToTarget = vectorToTarget.normalized;
             //snowball.transform.forward = vectorToTarget; 
-        }
+    }
+
+    public void SpawnSnowballs() { 
+        GameObject snowball = Instantiate(snowballPrefab, transform.position, transform.rotation);
+        snowball.transform.LookAt(cameraObj.transform);
     }
 }
