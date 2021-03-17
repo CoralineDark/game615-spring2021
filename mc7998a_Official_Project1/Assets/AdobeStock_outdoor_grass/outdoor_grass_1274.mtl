@@ -1,0 +1,51 @@
+newmtl outdoor_grass_1274_grassland_MatSG
+Ni 1.6
+Ka 0 0 0
+d 1.0
+Ke 0.0
+Kd 0 0 0
+adobe_map_normal outdoor_grass_1274/outdoor_grass_1274_grassland_Mat_normal.png
+Tr 0
+illum 7
+Ks 1 1 1
+adobe_translucence 0.0
+adobe_map_roughness outdoor_grass_1274/outdoor_grass_1274_grassland_Mat_roughness.png
+adobe_interior_color 1.0 1.0 1.0
+adobe_density 0.0
+map_Pm outdoor_grass_1274/outdoor_grass_1274_grassland_Mat_metallic.png
+Ns 16
+map_Kd outdoor_grass_1274/outdoor_grass_1274_grassland_Mat_baseColor.png
+newmtl outdoor_grass_1274_brick_MatSG
+Ni 1.6
+Ka 0 0 0
+d 1.0
+Ke 0.0
+Kd 0 0 0
+adobe_map_normal outdoor_grass_1274/outdoor_grass_1274_brick_Mat_normal.png
+Tr 0
+illum 7
+Ks 1 1 1
+adobe_translucence 0.0
+adobe_map_roughness outdoor_grass_1274/outdoor_grass_1274_brick_Mat_roughness.png
+adobe_interior_color 1.0 1.0 1.0
+adobe_density 0.0
+map_Pm outdoor_grass_1274/outdoor_grass_1274_brick_Mat_metallic.png
+Ns 16
+map_Kd outdoor_grass_1274/outdoor_grass_1274_brick_Mat_baseColor.png
+newmtl outdoor_grass_1274_cream_MatSG
+Ni 1.6
+Ka 0 0 0
+d 1.0
+Ke 0.0
+Kd 0 0 0
+adobe_map_normal outdoor_grass_1274/outdoor_grass_1274_cream_Mat_normal.png
+Tr 0
+illum 7
+Ks 1 1 1
+adobe_translucence 0.0
+adobe_map_roughness outdoor_grass_1274/outdoor_grass_1274_cream_Mat_roughness.png
+adobe_interior_color 1.0 1.0 1.0
+adobe_density 0.0
+map_Pm outdoor_grass_1274/outdoor_grass_1274_cream_Mat_metallic.png
+Ns 16
+map_Kd outdoor_grass_1274/outdoor_grass_1274_cream_Mat_baseColor.png
