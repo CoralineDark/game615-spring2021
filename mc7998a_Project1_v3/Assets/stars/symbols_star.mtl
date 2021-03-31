@@ -1,0 +1,34 @@
+newmtl Star_fill_MatSG
+Ni 1.6
+Ka 0 0 0
+d 1.0
+Ke 0.0
+Kd 0 0 0
+adobe_map_normal symbols_star/Star_fill_Mat_normal.png
+Tr 0
+illum 7
+Ks 1 1 1
+adobe_translucence 0.0
+adobe_map_roughness symbols_star/Star_fill_Mat_roughness.png
+adobe_interior_color 1.0 1.0 1.0
+adobe_density 0.0
+map_Pm symbols_star/Star_fill_Mat_metallic.png
+Ns 16
+map_Kd symbols_star/Star_fill_Mat_baseColor.png
+newmtl Star_border_MatSG
+Ni 1.6
+Ka 0 0 0
+d 1.0
+Ke 0.0
+Kd 0 0 0
+adobe_map_normal symbols_star/Star_border_Mat_normal.png
+Tr 0
+illum 7
+Ks 1 1 1
+adobe_translucence 0.0
+adobe_map_roughness symbols_star/Star_border_Mat_roughness.png
+adobe_interior_color 1.0 1.0 1.0
+adobe_density 0.0
+map_Pm symbols_star/Star_border_Mat_metallic.png
+Ns 16
+map_Kd symbols_star/Star_border_Mat_baseColor.png
