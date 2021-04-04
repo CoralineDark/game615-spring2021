@@ -1,0 +1,88 @@
+mdl 1.3;
+
+using state import *;
+
+import adobe::mtl::*;
+import adobe::util::*;
+import ::tex::gamma_mode;
+import ::state::normal;
+
+export material pack_Mat(*)
+  = adobe::mtl::standard(
+    opacity : float(1.0),
+    baseColor : adobe::util::color_texture( texture_2d("extravehicular_mobility_spacesuit/pack_BaseColor.png", ::tex::gamma_srgb) ),
+    translucence : float(0.0),
+    glow : float(0.0),
+    indexOfRefraction : float(1.6),
+    density : float(0.0),
+    roughness : float(0.6),
+    normal : adobe::util::normal_texture( texture_2d("extravehicular_mobility_spacesuit/pack_Normal.png", ::tex::gamma_linear) ),
+    interiorColor : color(1.0, 1.0, 1.0),
+    metallic : float(0.9),
+    height : float(0.5),
+    heightScale : float(1.0)
+    );
+
+export material arms_Mat(*)
+  = adobe::mtl::standard(
+    opacity : float(1.0),
+    baseColor : adobe::util::color_texture( texture_2d("extravehicular_mobility_spacesuit/arms_BaseColor.png", ::tex::gamma_srgb) ),
+    translucence : float(0.0),
+    glow : float(0.0),
+    indexOfRefraction : float(1.6),
+    density : float(0.0),
+    roughness : adobe::util::float_texture( texture_2d("extravehicular_mobility_spacesuit/arms_Roughness.png", ::tex::gamma_linear) ),
+    normal : adobe::util::normal_texture( texture_2d("extravehicular_mobility_spacesuit/arms_Normal.png", ::tex::gamma_linear) ),
+    interiorColor : color(1.0, 1.0, 1.0),
+    metallic : float(0.9),
+    height : float(0.5),
+    heightScale : float(1.0)
+    );
+
+export material belt_Mat(*)
+  = adobe::mtl::standard(
+    opacity : float(1.0),
+    baseColor : adobe::util::color_texture( texture_2d("extravehicular_mobility_spacesuit/belt_BaseColor.png", ::tex::gamma_srgb) ),
+    translucence : float(0.0),
+    glow : float(0.0),
+    indexOfRefraction : float(1.6),
+    density : float(0.0),
+    roughness : adobe::util::float_texture( texture_2d("extravehicular_mobility_spacesuit/belt_Roughness.png", ::tex::gamma_linear) ),
+    normal : adobe::util::normal_texture( texture_2d("extravehicular_mobility_spacesuit/belt_Normal.png", ::tex::gamma_linear) ),
+    interiorColor : color(1.0, 1.0, 1.0),
+    metallic : float(0.9),
+    height : float(0.5),
+    heightScale : float(1.0)
+    );
+
+export material bolts_Mat(*)
+  = adobe::mtl::standard(
+    opacity : float(1.0),
+    baseColor : adobe::util::color_texture( texture_2d("extravehicular_mobility_spacesuit/bolts_BaseColor.png", ::tex::gamma_srgb) ),
+    translucence : float(0.0),
+    glow : float(0.0),
+    indexOfRefraction : float(1.6),
+    density : float(0.0),
+    roughness : adobe::util::float_texture( texture_2d("extravehicular_mobility_spacesuit/bolts_Roughness.png", ::tex::gamma_linear) ),
+    normal : adobe::util::normal_texture( texture_2d("extravehicular_mobility_spacesuit/bolts_Normal.png", ::tex::gamma_linear) ),
+    interiorColor : color(1.0, 1.0, 1.0),
+    metallic : float(0.9),
+    height : float(0.5),
+    heightScale : float(1.0)
+    );
+
+export material remotes_Mat(*)
+  = adobe::mtl::standard(
+    opacity : float(1.0),
+    baseColor : adobe::util::color_texture( texture_2d("extravehicular_mobility_spacesuit/remotes_BaseColor.png", ::tex::gamma_srgb) ),
+    translucence : float(0.0),
+    glow : float(0.0),
+    indexOfRefraction : float(1.6),
+    density : float(0.0),
+    roughness : adobe::util::float_texture( texture_2d("extravehicular_mobility_spacesuit/remotes_Roughness.png", ::tex::gamma_linear) ),
+    normal : adobe::util::normal_texture( texture_2d("extravehicular_mobility_spacesuit/remotes_Normal.png", ::tex::gamma_linear) ),
+    interiorColor : color(1.0, 1.0, 1.0),
+    metallic : float(0.9),
+    height : float(0.5),
+    heightScale : float(1.0)
+    );

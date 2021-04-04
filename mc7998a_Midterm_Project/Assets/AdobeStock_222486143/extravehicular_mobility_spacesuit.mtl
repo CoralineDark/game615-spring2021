@@ -1,0 +1,85 @@
+newmtl pack_Mat
+Pr 0.6),
+Ni 1.6
+Ka 0 0 0
+Pm 0
+d 1.0
+Ke 0.0
+Kd 0 0 0
+adobe_map_normal extravehicular_mobility_spacesuit/pack_Normal.png
+Tr 0
+illum 7
+Ks 1 1 1
+adobe_translucence 0.0
+adobe_interior_color 1.0 1.0 1.0
+adobe_density 0.0
+Ns 16
+map_Kd extravehicular_mobility_spacesuit/pack_BaseColor.png
+newmtl belt_Mat
+Ni 1.6
+Ka 0 0 0
+Pm 0
+d 1.0
+Ke 0.0
+Kd 0 0 0
+adobe_map_normal extravehicular_mobility_spacesuit/belt_Normal.png
+Tr 0
+illum 7
+Ks 1 1 1
+adobe_translucence 0.0
+adobe_map_roughness extravehicular_mobility_spacesuit/belt_Roughness.png
+adobe_interior_color 1.0 1.0 1.0
+adobe_density 0.0
+Ns 16
+map_Kd extravehicular_mobility_spacesuit/belt_BaseColor.png
+newmtl arms_Mat
+Ni 1.6
+Ka 0 0 0
+Pm 0
+d 1.0
+Ke 0.0
+Kd 0 0 0
+adobe_map_normal extravehicular_mobility_spacesuit/arms_Normal.png
+Tr 0
+illum 7
+Ks 1 1 1
+adobe_translucence 0.0
+adobe_map_roughness extravehicular_mobility_spacesuit/arms_Roughness.png
+adobe_interior_color 1.0 1.0 1.0
+adobe_density 0.0
+Ns 16
+map_Kd extravehicular_mobility_spacesuit/arms_BaseColor.png
+newmtl remotes_Mat
+Ni 1.6
+Ka 0 0 0
+Pm 0
+d 1.0
+Ke 0.0
+Kd 0 0 0
+adobe_map_normal extravehicular_mobility_spacesuit/remotes_Normal.png
+Tr 0
+illum 7
+Ks 1 1 1
+adobe_translucence 0.0
+adobe_map_roughness extravehicular_mobility_spacesuit/remotes_Roughness.png
+adobe_interior_color 1.0 1.0 1.0
+adobe_density 0.0
+Ns 16
+map_Kd extravehicular_mobility_spacesuit/remotes_BaseColor.png
+newmtl bolts_Mat
+Ni 1.6
+Ka 0 0 0
+Pm 0
+d 1.0
+Ke 0.0
+Kd 0 0 0
+adobe_map_normal extravehicular_mobility_spacesuit/bolts_Normal.png
+Tr 0
+illum 7
+Ks 1 1 1
+adobe_translucence 0.0
+adobe_map_roughness extravehicular_mobility_spacesuit/bolts_Roughness.png
+adobe_interior_color 1.0 1.0 1.0
+adobe_density 0.0
+Ns 16
+map_Kd extravehicular_mobility_spacesuit/bolts_BaseColor.png
