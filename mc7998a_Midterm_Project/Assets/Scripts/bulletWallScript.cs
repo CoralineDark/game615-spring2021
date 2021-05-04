@@ -18,7 +18,7 @@ public class bulletWallScript : MonoBehaviour
     private void OnTriggerEnter(Collider other) {
         print("collission detected"); 
         if (other.CompareTag("fired")) { 
-            print("we hit a bullet barrior!"); 
+            print("we hit a bullet barrier!"); 
             Destroy(other.gameObject); 
             Destroy(gameObject); 
         }
